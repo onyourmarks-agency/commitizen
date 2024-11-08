@@ -40,6 +40,8 @@ Git Commit flags:
                 override author for commit
       --date string
                 override date for commit
+      --no-verify
+                bypass pre-commit and commit-msg hooks
   -q, --quiet
                 suppress summary after successful commit
   -s, --signoff
