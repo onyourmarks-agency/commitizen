@@ -24,13 +24,13 @@ items:
        key: "📚\tDocumentation only changes"
  - name: scope
    label: "Scope. Could be anything specifying place of the commit change (user, db, poll):"
-   type: input
+   type: string
    group: page2
    trim: true
  - name: subject
    label: "Subject. Concise description of the changes. Imperative, lower case and no final dot:"
    trim: true
-   type: input
+   type: string
    group: page3
    required: true
 
