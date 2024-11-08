@@ -84,7 +84,7 @@ $ commitizen init
 You must have a working Go environment:
 
 ```
-$ go install https://github.com/onyourmarks-agency/commitizen@latest
+$ go install github.com/onyourmarks-agency/commitizen@latest
 $ commitizen init
 ```
 
