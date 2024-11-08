@@ -5,7 +5,7 @@ default: true
 items:
  - name: type
    label: "Select the type of change that you're committing:"
-   type: select
+   type: list
    group: page1
    options:
      - value: feat
