@@ -5,7 +5,7 @@ default: true
 items:
  - name: type
    desc: "Select the type of change that you're committing:"
-   type: select
+   type: list
    options:
      - name: feat
        desc: "🎉\tA new feature"
