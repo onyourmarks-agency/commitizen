@@ -74,7 +74,7 @@ release:
 #  draft: false
 #  prerelease: auto
   footer: |
-    **Full Changelog**: https://github.com/shipengqi/commitizen/compare/{{ .PreviousTag }}...{{ .Tag }}
+    **Full Changelog**: https://github.com/onyourmarks-agency/commitizen/compare/{{ .PreviousTag }}...{{ .Tag }}
 
 
 # modelines, feel free to remove those if you don't want/use them:

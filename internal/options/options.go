@@ -7,7 +7,7 @@ import (
 
 	cliflag "github.com/shipengqi/component-base/cli/flag"
 
-	"github.com/shipengqi/commitizen/internal/git"
+	"github.com/onyourmarks-agency/commitizen/internal/git"
 )
 
 type Options struct {

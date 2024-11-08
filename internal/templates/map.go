@@ -3,7 +3,7 @@ package templates
 import (
 	"github.com/charmbracelet/huh"
 
-	"github.com/shipengqi/commitizen/internal/parameter"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter"
 )
 
 type SortedGroupMap struct {

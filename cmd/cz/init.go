@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/shipengqi/commitizen/internal/git"
+	"github.com/onyourmarks-agency/commitizen/internal/git"
 )
 
 func NewInitCmd() *cobra.Command {

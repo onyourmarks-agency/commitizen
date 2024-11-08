@@ -5,7 +5,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/shipengqi/commitizen/internal/config"
+	"github.com/onyourmarks-agency/commitizen/internal/config"
 )
 
 func TestLoadTemplates(t *testing.T) {

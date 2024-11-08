@@ -10,16 +10,16 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/shipengqi/golib/strutil"
 
-	"github.com/shipengqi/commitizen/internal/errors"
-	"github.com/shipengqi/commitizen/internal/helpers"
-	"github.com/shipengqi/commitizen/internal/parameter"
-	"github.com/shipengqi/commitizen/internal/parameter/boolean"
-	"github.com/shipengqi/commitizen/internal/parameter/integer"
-	"github.com/shipengqi/commitizen/internal/parameter/list"
-	"github.com/shipengqi/commitizen/internal/parameter/multilist"
-	"github.com/shipengqi/commitizen/internal/parameter/secret"
-	"github.com/shipengqi/commitizen/internal/parameter/str"
-	"github.com/shipengqi/commitizen/internal/parameter/text"
+	"github.com/onyourmarks-agency/commitizen/internal/errors"
+	"github.com/onyourmarks-agency/commitizen/internal/helpers"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter/boolean"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter/integer"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter/list"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter/multilist"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter/secret"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter/str"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter/text"
 )
 
 type Template struct {

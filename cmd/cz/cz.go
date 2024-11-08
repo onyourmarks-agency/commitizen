@@ -14,9 +14,9 @@ import (
 	"github.com/shipengqi/log"
 	"github.com/spf13/cobra"
 
-	"github.com/shipengqi/commitizen/internal/config"
-	"github.com/shipengqi/commitizen/internal/git"
-	"github.com/shipengqi/commitizen/internal/options"
+	"github.com/onyourmarks-agency/commitizen/internal/config"
+	"github.com/onyourmarks-agency/commitizen/internal/git"
+	"github.com/onyourmarks-agency/commitizen/internal/options"
 )
 
 func New() *cobra.Command {

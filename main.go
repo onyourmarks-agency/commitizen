@@ -7,7 +7,7 @@ import (
 
 	"github.com/charmbracelet/huh"
 
-	"github.com/shipengqi/commitizen/cmd/cz"
+	"github.com/onyourmarks-agency/commitizen/cmd/cz"
 )
 
 const (

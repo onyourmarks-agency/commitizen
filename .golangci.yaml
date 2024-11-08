@@ -26,6 +26,6 @@ linters-settings:
   gofmt:
     simplify: true
   goimports:
-    local-prefixes: github.com/shipengqi/commitizen
+    local-prefixes: github.com/onyourmarks-agency/commitizen
   dupl:
     threshold: 600

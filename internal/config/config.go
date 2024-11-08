@@ -14,8 +14,8 @@ import (
 	"github.com/shipengqi/golib/sysutil"
 	"gopkg.in/yaml.v3"
 
-	"github.com/shipengqi/commitizen/internal/options"
-	"github.com/shipengqi/commitizen/internal/templates"
+	"github.com/onyourmarks-agency/commitizen/internal/options"
+	"github.com/onyourmarks-agency/commitizen/internal/templates"
 )
 
 const (
@@ -133,7 +133,7 @@ func (c *Config) createTemplatesSelect(label string) *huh.Form {
 	}
 
 	return huh.NewForm(huh.NewGroup(
-		huh.NewNote().Title("Commitizen").Description("Welcome to Commitizen!\nFor further configuration visit:\nhttps://github.com/shipengqi/commitizen"),
+		huh.NewNote().Title("Commitizen").Description("Welcome to Commitizen!\nFor further configuration visit:\nhttps://github.com/onyourmarks-agency/commitizen"),
 		huh.NewSelect[string]().
 			Key(FieldKeyTemplateSelect).
 			Options(huh.NewOptions(choices...)...).

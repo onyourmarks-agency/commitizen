@@ -6,7 +6,7 @@ import (
 	"github.com/charmbracelet/huh"
 	"github.com/shipengqi/golib/strutil"
 
-	"github.com/shipengqi/commitizen/internal/errors"
+	"github.com/onyourmarks-agency/commitizen/internal/errors"
 )
 
 type Interface interface {

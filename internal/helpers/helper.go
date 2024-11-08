@@ -1,6 +1,6 @@
 package helpers
 
-import "github.com/shipengqi/commitizen/internal/errors"
+import "github.com/onyourmarks-agency/commitizen/internal/errors"
 
 func GetValueFromYAML[T any](data map[string]interface{}, key string) (T, error) {
 	var (

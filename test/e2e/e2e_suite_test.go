@@ -10,7 +10,7 @@ import (
 	"github.com/onsi/gomega/gexec"
 	"github.com/shipengqi/golib/fsutil"
 
-	. "github.com/shipengqi/commitizen/test/e2e"
+	. "github.com/onyourmarks-agency/commitizen/test/e2e"
 )
 
 var (

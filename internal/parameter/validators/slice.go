@@ -1,6 +1,6 @@
 package validators
 
-import "github.com/shipengqi/commitizen/internal/errors"
+import "github.com/onyourmarks-agency/commitizen/internal/errors"
 
 func MultiRequired(name string) func([]string) error {
 	return func(vals []string) error {

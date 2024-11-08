@@ -1,4 +1,4 @@
-module github.com/shipengqi/commitizen
+module github.com/onyourmarks-agency/commitizen
 
 go 1.23
 

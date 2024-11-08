@@ -8,8 +8,8 @@ import (
 	"github.com/shipengqi/golib/strutil"
 	"github.com/shipengqi/log"
 
-	"github.com/shipengqi/commitizen/internal/errors"
-	"github.com/shipengqi/commitizen/internal/helpers"
+	"github.com/onyourmarks-agency/commitizen/internal/errors"
+	"github.com/onyourmarks-agency/commitizen/internal/helpers"
 )
 
 type Group struct {

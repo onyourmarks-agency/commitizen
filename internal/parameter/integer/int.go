@@ -3,8 +3,8 @@ package integer
 import (
 	"github.com/charmbracelet/huh"
 
-	"github.com/shipengqi/commitizen/internal/parameter"
-	"github.com/shipengqi/commitizen/internal/parameter/validators"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter"
+	"github.com/onyourmarks-agency/commitizen/internal/parameter/validators"
 )
 
 type Param struct {

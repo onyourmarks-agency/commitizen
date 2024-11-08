@@ -2,7 +2,7 @@
 BIN ?= commitizen
 
 # This repo's root import path
-PKG := github.com/shipengqi/commitizen
+PKG := github.com/onyourmarks-agency/commitizen
 VERSION_PKG=github.com/shipengqi/component-base/version
 
 ifeq ($(origin VERSION), undefined)
