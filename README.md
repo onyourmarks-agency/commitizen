@@ -1,9 +1,9 @@
 # commitizen
 
-[![test](https://github.com/shipengqi/commitizen/actions/workflows/e2e.yaml/badge.svg)](https://github.com/shipengqi/commitizen/actions/workflows/e2e.yaml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/shipengqi/commitizen)](https://goreportcard.com/report/github.com/shipengqi/commitizen)
-[![release](https://img.shields.io/github/release/shipengqi/commitizen.svg)](https://github.com/shipengqi/commitizen/releases)
-[![license](https://img.shields.io/github/license/shipengqi/commitizen)](https://github.com/shipengqi/commitizen/blob/main/LICENSE)
+[![test](https://github.com/onyourmarks-agency/commitizen/actions/workflows/e2e.yaml/badge.svg)](https://github.com/onyourmarks-agency/commitizen/actions/workflows/e2e.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/onyourmarks-agency/commitizen)](https://goreportcard.com/report/github.com/onyourmarks-agency/commitizen)
+[![release](https://img.shields.io/github/release/onyourmarks-agency/commitizen.svg)](https://github.com/onyourmarks-agency/commitizen/releases)
+[![license](https://img.shields.io/github/license/onyourmarks-agency/commitizen)](https://github.com/onyourmarks-agency/commitizen/blob/main/LICENSE)
 
 Command line utility to standardize git commit messages, golang version. Forked from [commitizen-go](https://github.com/lintingzhen/commitizen-go).
 
@@ -71,7 +71,7 @@ $ git cz
 
 ### From the Binary Releases
 
-Download the pre-compiled binaries from the [releases page](https://github.com/shipengqi/commitizen/releases) and copy them to the desired location.
+Download the pre-compiled binaries from the [releases page](https://github.com/onyourmarks-agency/commitizen/releases) and copy them to the desired location.
 
 Then install this tool to git-core as git-cz:
 
@@ -84,7 +84,7 @@ $ commitizen init
 You must have a working Go environment:
 
 ```
-$ go install github.com/shipengqi/commitizen@latest
+$ go install https://github.com/onyourmarks-agency/commitizen@latest
 $ commitizen init
 ```
 
@@ -93,7 +93,7 @@ $ commitizen init
 You must have a working Go environment:
 
 ```
-$ git clone https://github.com/shipengqi/commitizen.git
+$ git clone https://github.com/onyourmarks-agency/commitizen.git
 $ cd commitizen
 $ make && ./_output/$(GOOS)/$(GOARCH)/bin/commitizen init
 ```
