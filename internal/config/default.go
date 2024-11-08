@@ -9,19 +9,19 @@ items:
    group: page1
    options:
      - value: feat
-       key: "🎉\tA new feature"
+       key: "Feat:\t🎉\tA new feature"
      - value: fix
-       key: "🪲\tA bug fix"
+       key: "Fix:\t🪲\tA bug fix"
      - value: merge
-       key: "🙏\tResolving merge conflicts that were not auto-resolved"
+       key: "Merge:\t🙏\tResolving merge conflicts that were not auto-resolved"
      - value: copy
-       key: "✍️\t Textual changes (e.g. HTML, translations, etc)"
+       key: "Copy:\t✍️\t Textual changes (e.g. HTML, translations, etc)"
      - value: style
-       key: "✨\tChanges that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
+       key: "Style:\t✨\tChanges that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
      - value: build
-       key: "🏗\t Changes that affect how code is built (composer, pnpm, deploy, config-only changes, etc)"
+       key: "Build:\t🏗\t Changes that affect how code is built (composer, pnpm, deploy, config-only changes, etc)"
      - value: docs
-       key: "📚\tDocumentation only changes"
+       key: "Docs:\t📚\tDocumentation only changes"
  - name: scope
    label: "Scope. Could be anything specifying place of the commit change (user, db, poll):"
    type: string
